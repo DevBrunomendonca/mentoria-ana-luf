@@ -137,13 +137,11 @@ const AboutSection = () => {
 const VideoSection = () => {
   return (
     <section className="px-4 py-8 md:py-16">
-      <video
-        className="w-full max-h-[550px] max-w-[700px] mx-auto rounded-md bg-[#882124]"
-        controls
-        preload="auto"
-      >
-        <source src="/video-apresentacao.mp4" type="video/mp4" />
-      </video>
+      <iframe
+        src="https://www.youtube.com/embed/ob8YD-iuzTo?si=PpLP_fWgXOKkUvqd"
+        className="w-full min-h-[500px] max-w-4xl mx-auto rounded-md"
+        allowFullScreen
+      />
     </section>
   );
 };
