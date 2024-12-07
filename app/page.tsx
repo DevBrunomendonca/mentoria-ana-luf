@@ -109,7 +109,7 @@ const AboutSection = () => {
       <div className="w-full">
         <h2 className="text-[#101010] text-3xl font-bold">Quem sou</h2>
         <h3 className="text-[#BC2327] text-sm pb-3">
-          Proprietária da Óticas Ana Luf
+          Proprietária das Óticas Ana Luf
         </h3>
         <div className="space-y-2">
           <p className="text-[#616161] text-sm">
@@ -163,7 +163,7 @@ const CheckoutSection = () => {
             <CardBenefits
               icon="/icons/icone-conversa.svg"
               title="Atendimento exclusivo"
-              description="Atendimento presencial ou online, focado em cada detalhe para te orientar a escolha perfeita."
+              description="Atendimento presencial ou online, focado em cada detalhe para te orientar na escolha perfeita."
             />
             <CardBenefits
               icon="/icons/icone-guia.svg"
