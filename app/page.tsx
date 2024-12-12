@@ -138,7 +138,7 @@ const VideoSection = () => {
   return (
     <section className="px-4 py-8 md:py-16">
       <iframe
-        src="https://www.youtube.com/embed/ob8YD-iuzTo?si=PpLP_fWgXOKkUvqd"
+        src="https://www.youtube.com/embed/njd7rGYW7gg?si=Y3IAGfRUQ1_DNS4L"
         className="w-full min-h-[500px] max-w-4xl mx-auto rounded-md"
         allowFullScreen
       />
