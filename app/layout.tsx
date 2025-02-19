@@ -5,7 +5,6 @@ import Script from "next/script"; // Importe o componente Script
 import { Montserrat } from "next/font/google";
 import Header from "./_components/header";
 import Footer from "./_components/footer";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Consultoria - Ana Luf",
@@ -52,15 +51,13 @@ export default function RootLayout({
             fbq('track', 'PageView');
           `}
         </Script>
-        <noscript>
-          <Image
-            alt=""
-            height={1}
-            width={1}
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1647846286108828&ev=PageView&noscript=1"
-          />
-        </noscript>
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `<img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=1647846286108828&ev=PageView&noscript=1"
+/>`,
+          }}
+        />
       </head>
       <body className={montserrat.className}>
         <Header />
