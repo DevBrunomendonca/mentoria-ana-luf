@@ -190,7 +190,7 @@ const CheckoutSection = () => {
             href="https://pay.cakto.com.br/93GPCre"
           />
           <CardCheckout
-            title="Presencial"
+            title="Presencial - Palmas(TO)"
             description="Consultoria individualizada"
             href="https://pay.cakto.com.br/634U5W2"
           />
