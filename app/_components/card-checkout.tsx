@@ -26,9 +26,9 @@ const CardCheckout = ({ title, description, href }: CardCheckoutProps) => {
       </ul>
       <div className="flex flex-col">
         <span className="text-gray-500 text-sm">
-          De R$: <s>599,00</s> por
+          De R$: <s>247,00</s> por
         </span>
-        <span className="text-black text-4xl font-semibold">R$ 247,00</span>
+        <span className="text-black text-4xl font-semibold">R$ 99,90</span>
         <a
           href={href}
           target="_blank"
